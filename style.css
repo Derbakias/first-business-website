@@ -16,6 +16,7 @@ body {
 header {
 	max-width: 1200px;
 	margin: auto;
+	margin-top: 5px;
 	display: flex;
 	flex-direction: row;
 	width: 100%;
@@ -30,7 +31,7 @@ header {
 	height: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	justify-content: flex-end;
 	align-items: flex-end;
 }
 
@@ -96,6 +97,9 @@ header {
 	font-size: 70px;
 }
 
+.button {
+}
+
 .btn {
 	border: 1px solid white;
 	padding: 10px 30px;
@@ -106,10 +110,11 @@ header {
 	text-transform: uppercase;
 }
 
-footer {
+.footer {
+	height: 100%;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
 	background-color: #011C24;
 	color: #D3D7CF;
 	width: 100%;
@@ -151,6 +156,9 @@ footer {
 		margin-top: 10%;
 	}
 
+	.container {
+		height: 250px;
+	}
 	.hero h1 {
 		font-size: 30px;
 	}
@@ -162,6 +170,10 @@ footer {
 
 	.button .btn {
 		margin-bottom: 10px;
+	}
+
+	.footer {
+		margin-top: 200px;
 	}
 }
 
