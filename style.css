@@ -5,7 +5,8 @@
 }
 body {
 	background-attachment: fixed;
-	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("/img/ office.jpg");
+	background-image: url("img/office.jpg");
+	background-image: url("img/office.jpg"), linear-gradient(rgba(0,0,0,0.1), rgba(158, 139, 139, 0.8));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
